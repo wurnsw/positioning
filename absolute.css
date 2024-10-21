@@ -1,0 +1,103 @@
+/* #region EXERCISE--11 */
+.block {
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+
+  border: 1px solid red;
+}
+
+.elem {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  border: 1px solid green;
+}
+
+.elem-1 {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  border: 1px solid green;
+}
+/* #endregion */
+
+/* #region EXERCISE--12 */
+.block-1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+
+  border: 1px solid red;
+}
+
+/* #endregion */
+
+/* #region EXERCISE--13 */
+.block-2 {
+  margin: 0 auto;
+
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+  top: 430px;
+
+  border: 1px solid red;
+}
+
+.elem-2 {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  top: -20px;
+  left: -20px;
+
+  border: 1px solid green;
+}
+/* #endregion */
+
+/* #region EXERCISE--14 */
+.block-3 {
+  margin: 30px auto;
+
+  width: 800px;
+  height: 400px;
+
+  position: relative;
+  top: 430px;
+
+  border: 1px solid green;
+}
+
+.elem-3 {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  left: -100px;
+
+  border: 1px solid red;
+}
+.elem-4 {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  right: -100px;
+
+  border: 1px solid red;
+}
+/* #endregion */

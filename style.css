@@ -1,0 +1,136 @@
+/* #region EXERCISE--1 */
+.elem1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid red;
+}
+.elem2 {
+  position: absolute;
+  top: 230px;
+  left: 230px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid blue;
+}
+.elem3 {
+  position: absolute;
+  top: 360px;
+  left: 360px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid green;
+}
+/* #endregion */
+
+/* #region EXERCISE--2 */
+.elem4 {
+  position: absolute;
+  top: 520px;
+  left: 100px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid red;
+}
+.elem5 {
+  position: absolute;
+  top: 520px;
+  left: 250px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid blue;
+}
+.elem6 {
+  position: absolute;
+  top: 520px;
+  left: 400px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid green;
+}
+
+/* #region EXERCISE--3 */
+.elem7 {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid red;
+}
+.elem8 {
+  position: absolute;
+  top: 760px;
+  left: 160px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid blue;
+}
+.elem9 {
+  position: absolute;
+  top: 820px;
+  left: 220px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid green;
+}
+/* #endregion */
+
+/* #region EXERCISE--4 */
+.elem-a {
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid lightcoral;
+
+  background-color: lightcoral;
+}
+.elem-b {
+  position: absolute;
+  top: 1060px;
+  left: 160px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid lightblue;
+
+  background-color: lightblue;
+}
+.elem-c {
+  position: absolute;
+  top: 1120px;
+  left: 220px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid lightgreen;
+
+  background-color: lightgreen;
+}
+/* #endregion */

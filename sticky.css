@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+}
+.elem-1 {
+  width: 100%;
+  height: 50px;
+
+  background-color: #a4ecf7;
+}
+.elem-2 {
+  width: 100%;
+  height: 50px;
+
+  background-color: #f9c06f;
+}
+
+.elem-3 {
+  width: 100%;
+  height: 50px;
+
+  position: sticky;
+  top: 0;
+
+  background-color: #9172cb;
+}
+
+.block-text {
+  margin: 0 auto;
+
+  width: 400px;
+}

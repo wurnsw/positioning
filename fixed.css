@@ -1,0 +1,105 @@
+/* #region LINK */
+a {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+/* #endregion */
+
+/* #region EXERCISE--15 */
+
+.block {
+  margin: 0 auto;
+  padding: 10px;
+
+  position: relative;
+
+  width: 400px;
+
+  border: 1px solid green;
+}
+
+.elem-1 {
+  width: 30px;
+  height: 30px;
+
+  position: fixed;
+  top: 10px;
+  left: 150px;
+
+  border: 1px solid red;
+}
+
+.elem-2 {
+  width: 30px;
+  height: 30px;
+
+  position: fixed;
+  top: 10px;
+  right: 150px;
+
+  border: 1px solid red;
+}
+
+/* #endregion */
+
+/* #region EXERCISE--16 */
+
+body {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+
+  line-height: 20px;
+
+  font-weight: normal;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  background-color: coral;
+}
+
+.block-1 {
+  margin: 0 auto;
+  padding: 10px;
+
+  position: relative;
+  top: 70px;
+
+  width: 400px;
+
+  border: 1px solid coral;
+}
+
+.elem-3 {
+  width: 30px;
+  height: 30px;
+
+  position: fixed;
+  top: 10px;
+  left: 100px;
+
+  border: 1px solid red;
+}
+
+.elem-4 {
+  width: 30px;
+  height: 30px;
+
+  position: fixed;
+  top: 10px;
+  right: 100px;
+
+  border: 1px solid red;
+}
+
+/* #endregion */
