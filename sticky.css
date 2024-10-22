@@ -1,6 +1,80 @@
-body {
-  margin: 0 auto;
+/* #region RESET */
+
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
 }
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* #endregion */
+
+/* #region NORMALIZE*/
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* #endregion */
+
+/* #region NAV */
+.nav--sticky {
+  position: sticky;
+  top: 10px;
+  right: 50%;
+  left: 50%;
+  z-index: 2;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav__icon {
+  padding: 7px;
+
+  width: 50px;
+  height: 50px;
+
+  border: 2px solid transparent;
+  border-radius: 50%;
+
+  transition: all 400ms;
+}
+
+.nav__icon:hover {
+  border: 2px solid black;
+
+  transform: scale(1.2);
+}
+
+/* #endregion  */
+
+/* #region TITLE */
+.title {
+  text-align: center;
+
+  font-weight: normal;
+}
+/* #endregion */
+
 .elem-1 {
   width: 100%;
   height: 50px;
