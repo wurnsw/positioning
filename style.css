@@ -33,11 +33,12 @@ a {
 /* #endregion */
 
 /* #region NAV */
-.nav{
-position: fixed;
-top: 10px;
-right: 50%;
-left: 50%;
+
+.nav {
+  position: fixed;
+  top: 10px;
+  right: 50%;
+  left: 50%;
 }
 
 .nav__list {
